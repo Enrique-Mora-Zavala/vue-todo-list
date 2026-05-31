@@ -23,6 +23,7 @@ const initListItems = (): void => {
       { title: 'Learn a new language', checked: false },
       { title: 'Publish my work' },
     ]
+
     setToStorage(listItems)
     storageItems.value = listItems
   }
@@ -78,6 +79,6 @@ ul {
   list-style: none;
 }
 li {
-  margin: 0.4 rem 0;
+  margin: 0.4rem 0;
 }
 </style>
